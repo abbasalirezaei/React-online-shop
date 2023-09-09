@@ -1,0 +1,49 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "eject": {
+      "name": "eject",
+      "command": "yarn eject",
+      "runAtStart": false
+    },
+    "npm install react-router-dom": {
+      "name": "npm install react-router-dom",
+      "command": "npm install react-router-dom"
+    },
+    "npm install react-fontawesome ": {
+      "name": "npm install react-fontawesome ",
+      "command": "npm install react-fontawesome "
+    },
+    "npm install free-solid-svg-icons": {
+      "name": "npm install free-solid-svg-icons",
+      "command": "npm install free-solid-svg-icons"
+    },
+    "npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons  @fortawesome/fontawesome-svg-core react-bootstrap": {
+      "name": "npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons  @fortawesome/fontawesome-svg-core react-bootstrap",
+      "command": "npm install @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons  @fortawesome/fontawesome-svg-core react-bootstrap"
+    }
+  }
+}
