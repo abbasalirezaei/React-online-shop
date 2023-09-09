@@ -5,11 +5,16 @@ import Shop from './pages/shop/Shop';
 import Cart from './pages/cart/Cart';
 import Navbar from './components/Navbar';
 import NotFound from './components/NotFound';
+import { ShopContextProvider } from './context/shopContext';
+
+
 
 function App() {
+
+  
   return (
-    <div className="App">
-      <shopContextProvider>
+    <div className="container">
+      <ShopContextProvider>
         <Router>
 
             <Navbar />
@@ -20,7 +25,7 @@ function App() {
               <Route path='*' element={<NotFound/>} />
             </Routes>
         </Router>
-      </shopContextProvider>
+      </ShopContextProvider>
     </div>
   );
 }
